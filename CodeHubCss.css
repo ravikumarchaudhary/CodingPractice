@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #24252a;
+}
+body{
+	background-color: white;
+}
+li,a,button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  /*padding: 15px 8%;*/
+  
+  padding: 25px 70px 8px 40px;
+  /*padding-left: -10px;
+  padding-right: 5px;*/
+}
+
+.dropdown a {
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: rgba(0, 136, 169, 1);
+}
+#courses {
+  background-color: #24252a;
+}
+
+.logo{
+  cursor: pointer;
+  background-color: azure;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.logo1{
+  cursor: pointer;
+  background-color: azure;
+  height: 500px;
+  width: 1200px;
+  /*padding-left: 310px;*/
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+.menu {
+  display: none;
+}
+.sub-menu-2 a {
+  color: black;
+}
+
+.sub-menu-2 a:hover {
+  color: blue;
+}
+
+#hello {
+  width: 100%;
+  height: 45rem;
+  /*overflow:scroll;*/
+}
+
+.sub-menu-2 ul li a {
+  padding: 20px;
+  color: black;
+  font-family: sans-serif;
+  padding: 0;
+}
+
+ 
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: inherit;
+  }
+}
+/*Mobile view*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 25px;
+  display: block;
+  transition: all 0.3s ease-in;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.blogTite {
+  margin: 10px 10px 10px 10px;
+  font-size: 150%;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+.blogText {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  padding: 0px 10px 10px 10px;
+}
+.blogAuthor {
+  padding: 0px 0px 0px 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.blogContent {
+  height: 100%;
+  padding: 10px 60px 30px 60px;
+}
+
+ 
+
+
+/* data structure grids css*/
+.grid-container { 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  /*background-color: #2196F3;*/
+  padding: 0px;
+}
+
+.grid-container div a{ 
+  color: green;
+  font-weight: bold;
+}
+
+.grid-container div a:hover{ 
+  text-decoration: underline;
+  background: black;
+  color: white;
+}
+
+.grid-container > div {
+  background-color: black;
+  border: none;
+  text-align: left;
+  font-size: 30px;
+}
+
+/*Data structure grids css end*/
+
+
+ 
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

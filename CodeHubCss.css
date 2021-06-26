@@ -18,6 +18,10 @@ li,a,button {
   text-decoration: none;
 }
 
+#imp a:hover{
+  color: blue;
+}
+
 header {
   display: flex;
   justify-content: space-between;
